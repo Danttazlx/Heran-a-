@@ -5,10 +5,12 @@ import Domain.Sobremesa;
 
 public class HerancaTest {
     public static void main(String[] args) {
-        Pizza pizza = new Pizza("Pizza",40.00, "Calabresa Com Queijo");
+        Pizza pizza = new Pizza("Pizza", 40.00, "Calabresa Com Queijo", true);
         pizza.imprime();
 
-        Sobremesa sobremesa = new Sobremesa("sobremesa", 20.00,"bolo de Chocolate");
+
+
+        Sobremesa sobremesa = new Sobremesa("sobremesa", 20.00, "bolo de Chocolate");
         sobremesa.imprime();
     }
 
